@@ -1,0 +1,35 @@
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Generate light and dark contribution snakes
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg?color_snake=%232dd4bf&color_dots=%23ebedf0,%2399f6e4,%235eead4,%232dd4bf,%230f766e
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%2338bdf8&color_dots=%23161b22,%231e3a5f,%230ea5e9,%232dd4bf,%23a78bfa
+
+      - name: Publish generated SVGs to the output branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
+          force_orphan: true
+          full_commit_message: "chore: refresh contribution snake"

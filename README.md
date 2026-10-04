@@ -19,7 +19,7 @@
 
 ## The short version
 
-I'm **Shivansh Mukhia** - a full-stack developer and B.Tech Computer Science student in Bengaluru. I build at the intersection of **product engineering, applied AI, and automation**: from air-gapped evidence retrieval and satellite semantic search to outcome-trained chess and finance-operations tools.
+I'm **Shivansh Mukhia** - a full-stack developer and B.Tech Computer Science student in Bengaluru. I build at the intersection of **product engineering, applied AI, and automation**: from air-gapped evidence retrieval and satellite image search to outcome-trained chess and finance-operations tools.
 
 My rule for good software: **local when it should be, verifiable when it matters, and useful to the person at the keyboard.**
 
@@ -62,8 +62,8 @@ My rule for good software: **local when it should be, verifiable when it matters
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/smsolutionsva-byte/DeepQuery">DeepQuery</a></h3>
-      <p><strong>Semantic search for geospatial telemetry.</strong> Uses dense embeddings and cosine-similarity retrieval to query satellite, environmental, and text data through structured FastAPI endpoints.</p>
-      <p><code>Python</code> <code>FastAPI</code> <code>Embeddings</code> <code>Vector Search</code></p>
+      <p><strong>Satellite image intelligence.</strong> Searches local image datasets with CLIP embeddings and FAISS, adds BLIP captions, and supports paired-image change detection through a Python pipeline and FastAPI interface.</p>
+      <p><code>Python</code> <code>FastAPI</code> <code>CLIP</code> <code>FAISS</code></p>
     </td>
   </tr>
   <tr>
@@ -81,8 +81,8 @@ My rule for good software: **local when it should be, verifiable when it matters
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/smsolutionsva-byte/OvaCare">OvaCare</a> · <a href="https://ova-care-ten.vercel.app">Live ↗</a></h3>
-      <p><strong>Privacy-focused women's health platform.</strong> Converts structured symptom and lifestyle inputs into an explainable PCOS/PCOD risk view, personalized guidance, and a consultation-ready summary.</p>
-      <p><code>TypeScript</code> <code>Next.js</code> <code>FastAPI</code> <code>Tailwind CSS</code></p>
+      <p><strong>Women's health exploration app.</strong> Helps users review PCOS-related symptoms, track reports, and prepare questions for a clinician with an explainable rule-based score.</p>
+      <p><code>TypeScript</code> <code>React</code> <code>Vite</code> <code>Firebase</code></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/smsolutionsva-byte/Saturday">Saturday</a></h3>

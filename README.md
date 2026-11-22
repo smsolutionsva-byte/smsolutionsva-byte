@@ -28,7 +28,7 @@ My rule for good software: **local when it should be, verifiable when it matters
     <td align="center"><strong>12+</strong><br /><sub>public builds</sub></td>
     <td align="center"><strong>4</strong><br /><sub>hackathon results</sub></td>
     <td align="center"><strong>3</strong><br /><sub>builder lanes</sub></td>
-    <td align="center"><strong>2029</strong><br /><sub>B.Tech CSE</sub></td>
+    <td align="center"><strong>2027</strong><br /><sub>B.Tech CSE</sub></td>
   </tr>
 </table>
 
@@ -54,6 +54,30 @@ My rule for good software: **local when it should be, verifiable when it matters
 ## Flagship systems
 
 <table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/smsolutionsva-byte/VEDA">VEDA</a></h3>
+      <p><strong>Agent-native project intelligence.</strong> Connects field evidence, schedules, reasoning agents, deterministic validation and human review. A four-expert resolver fused by XGBoost LambdaMART reaches 85.88% top-1 and 94.12% recall@3 on 170 unseen cases against 13,412 activities.</p>
+      <p><code>Python</code> <code>Agentic AI</code> <code>Hybrid Retrieval</code> <code>XGBoost</code> <code>MCP</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/smsolutionsva-byte/indic-judge-eval">indic-judge-eval</a></h3>
+      <p><strong>Can an LLM judge grade Hindi and Kannada like humans?</strong> Measures judge-human agreement (Cohen's kappa, QWK, Krippendorff's alpha with bootstrap confidence intervals) on 190 hand-labelled answers.</p>
+      <p><code>Python</code> <code>LLM-as-judge</code> <code>Evaluation</code> <code>Statistics</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Unfortunately, · <a href="https://unfortunately-theta.vercel.app">Play ↗</a> · <a href="https://smsolutionsva-byte.itch.io/unfortunately">itch.io ↗</a></h3>
+      <p><strong>A satire game about keyword resume screening.</strong> You're a human secretly doing the job of an "AI" screener: desk screening under absurd rules, a top-down office with stealth, and a reveal of who you actually rejected. Built with Claude from my own design doc.</p>
+      <p><code>Vanilla JS</code> <code>Canvas</code> <code>Web Audio</code> <code>Vercel</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/smsolutionsva-byte/MeetMind">MeetMind</a></h3>
+      <p><strong>Open-source AI meeting copilot.</strong> A floating ChatGPT, Claude or Gemini window hidden from screen share; screenshot or listen to the call and get a reply you can say out loud. No API key.</p>
+      <p><code>TypeScript</code> <code>Electron</code> <code>Overlay</code> <code>MIT</code></p>
+    </td>
+  </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/smsolutionsva-byte/Axiom">Axiom</a></h3>
@@ -108,6 +132,7 @@ My rule for good software: **local when it should be, verifiable when it matters
   <summary><strong>More things I've shipped</strong></summary>
   <br />
 
+- [**PeachyPawz**](https://github.com/smsolutionsva-byte/PeachyPawz) - evidence-grounded pet health AI: deterministic analytics detect change and LLMs explain the structured evidence on a health timeline.
 - [**SoftAnchor**](https://github.com/smsolutionsva-byte/SoftAnchor) - an ADHD-friendly productivity experience built around micro-tasking and supportive, non-judgmental prompts.
 - [**Sethu**](https://github.com/smsolutionsva-byte/sethu) - a criminal-investigation themed concept for helping trace lost vehicles and people.
 - [**Domestic Violence Alert System**](https://github.com/smsolutionsva-byte/alert_system_INV69) · [Live dashboard ↗](https://alert-system-inv-69.vercel.app) - Raspberry Pi sensing, Firebase event delivery, and a React monitoring dashboard for emergency alerts and complaint tracking.
@@ -120,13 +145,17 @@ My rule for good software: **local when it should be, verifiable when it matters
 <table>
   <tr>
     <td align="center"><strong>🥇 1st Place</strong><br /><sub>INNOVATEX 4.0<br />International Tech Fest</sub></td>
-    <td align="center"><strong>🏆 Winner</strong><br /><sub>FusionX Hackathon 2026<br />Presidency University</sub></td>
+    <td align="center"><strong>🥉 3rd Place</strong><br /><sub>FusionX Hackathon 2026<br />General Programming</sub></td>
     <td align="center"><strong>🥈 2nd Place</strong><br /><sub>Agrotech<br />Hackathon</sub></td>
     <td align="center"><strong>🇮🇳 Top 30</strong><br /><sub>NammaSurakasha 2.0<br />National Hackathon</sub></td>
   </tr>
 </table>
 
-- 🎓 **B.Tech, Computer Science & Engineering** - Presidency University, 2025-2029
+- 🎓 **B.Tech, Computer Science & Engineering** - Presidency University, graduating 2027
+- 💼 **Full Stack Engineer Intern (Core Integrations)** - PetOlife, Sep 2026-present: Razorpay payment workflow, product UI rebuild, 13+ bugs fixed
+- 🤖 **Artificial Intelligence Intern** - Syntecxhub, Oct-Nov 2026
+- 🎨 **Design Intern** - SYNK, Aug 2026
+- 📄 **Research** - published a review of RAG system architecture, limitations and practical challenges (Zenodo)
 - 💼 **Full Stack Web Developer Intern** - Poiema Infotech, Jun-Aug 2025
 - 🌐 **Virtual Assistant / Freelance** - self-employed, Nov 2025-Jan 2026
 

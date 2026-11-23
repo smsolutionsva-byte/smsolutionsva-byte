@@ -8,6 +8,7 @@
 </div>
 
 <p align="center">
+  <a href="https://shivanshmukhia.vercel.app"><img src="https://img.shields.io/badge/Portfolio-shivanshmukhia.vercel.app-2DD4BF?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Shivansh's portfolio" /></a>
   <a href="https://www.linkedin.com/in/shivansh-m-955184398"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="Connect with Shivansh on LinkedIn" /></a>
   <a href="mailto:sm.solutions.va@gmail.com"><img src="https://img.shields.io/badge/Email-Let's_talk-EA4335?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email Shivansh" /></a>
   <a href="https://github.com/smsolutionsva-byte?tab=repositories"><img src="https://img.shields.io/badge/Explore-My_builds-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Explore Shivansh's repositories" /></a>
